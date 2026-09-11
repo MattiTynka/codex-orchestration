@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "task": "Implement the repository's requested application behavior; adapt this example before initialization",
+  "risk": "substantial",
+  "riskRationale": "Application behavior changes require independent correctness assessment",
+  "criteria": [
+    {
+      "id": "C1",
+      "description": "The requested behavior and error paths work through the real application entrypoint"
+    },
+    {
+      "id": "C2",
+      "description": "The application meets its existing type and build contracts"
+    }
+  ],
+  "securityInvariants": [],
+  "checks": [
+    {
+      "id": "tests",
+      "purpose": "Run the repository's existing behavioral regression suite",
+      "argv": [
+        "npm",
+        "test"
+      ],
+      "timeoutSeconds": 900,
+      "covers": [
+        "C1"
+      ]
+    },
+    {
+      "id": "typecheck",
+      "purpose": "Verify the existing type contract",
+      "argv": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "timeoutSeconds": 600,
+      "covers": [
+        "C2"
+      ]
+    },
+    {
+      "id": "build",
+      "purpose": "Verify the production build",
+      "argv": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "timeoutSeconds": 1200,
+      "covers": [
+        "C2"
+      ]
+    }
+  ],
+  "additionalPaths": [],
+  "reviewRequirements": [
+    "correctness"
+  ],
+  "environment": {
+    "runtime": "Record the actual runtime version before using this example",
+    "dependencies": "Record package manager, lockfile identity, and install verification",
+    "externalServices": "Record synthetic/local service identity and state, without credentials"
+  },
+  "workMode": "implementation"
+}

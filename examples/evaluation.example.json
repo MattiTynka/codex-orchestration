@@ -1,0 +1,18 @@
+{
+  "briefSha256": null,
+  "snapshotDigest": null,
+  "verdict": "INCOMPLETE",
+  "acceptanceRationale": "Example only; no acceptance assessment has been performed",
+  "findings": [],
+  "gaps": ["Required checks, independent review, and lead assessment remain incomplete"],
+  "budget": {
+    "agentSessions": 0,
+    "repairCycles": 0,
+    "actualCostUsd": null,
+    "costSource": "No measured usage yet"
+  },
+  "releaseGate": {
+    "status": "pending",
+    "evidence": "No externally enforced release result has been observed"
+  }
+}

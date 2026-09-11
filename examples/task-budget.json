@@ -1,0 +1,25 @@
+{
+  "taskId": "replace-with-task-id",
+  "policy": {
+    "concurrentWorkers": 2,
+    "escalateAfterSubstantiveFailedRepair": 1,
+    "reassessAfterUnsuccessfulRepairCycles": 2,
+    "requiredGatesMayBeSkippedForBudget": false,
+    "slowTests": "Defer expensive suites until the integrated candidate is stable; one Luna max owner; prefer completion events; no duplicate runs or frequent lead polling",
+    "handoff": "After local acceptance, open or update a PR for external review with necessary tested migration files; do not merge, enable auto-merge, deploy, or apply hosted migrations"
+  },
+  "observed": {
+    "totalSessionsIncludingPlugins": 0,
+    "repairCycles": 0,
+    "wallSeconds": null,
+    "inputTokens": null,
+    "cachedInputTokens": null,
+    "outputTokens": null,
+    "reasoningTokensIfSeparatelyExposed": null,
+    "actualCostUsd": null,
+    "costSource": "Not yet run",
+    "humanReviewMinutes": null,
+    "escapedDefects": null
+  },
+  "comparisonRule": "Compare total cost and quality only for the same task and required gates; include retries, repair, review and human effort."
+}

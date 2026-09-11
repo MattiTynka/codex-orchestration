@@ -1,0 +1,13 @@
+{
+  "builders": [],
+  "workers": [],
+  "evaluator": {
+    "id": "lead-session",
+    "route": "lead",
+    "requestedModel": "gpt-6-astra",
+    "observedModel": null,
+    "effort": "high",
+    "observedEffort": null,
+    "observation": "Example only; replace with actual runtime evidence, never infer observation from configured flags"
+  }
+}

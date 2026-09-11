@@ -1,0 +1,22 @@
+[
+  {
+    "kind": "security",
+    "reviewerId": "fresh-security-session",
+    "initialContext": "not-started",
+    "route": "security",
+    "requestedModel": "gpt-6-astra",
+    "observedModel": null,
+    "effort": "high",
+    "observedEffort": null,
+    "observation": "Example only; replace with actual runtime evidence, never infer observation from configured flags",
+    "briefSha256": null,
+    "snapshotDigest": null,
+    "covers": [],
+    "filesRead": [],
+    "verdict": "INCOMPLETE",
+    "findings": [],
+    "gaps": [
+      "Independent security review has not run"
+    ]
+  }
+]

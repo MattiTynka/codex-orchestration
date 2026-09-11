@@ -1,0 +1,14 @@
+interface:
+  display_name: Codex Production Pipeline
+  short_description: Secure production work with explicit model budgets
+  default_prompt: Use $codex-production-pipeline to implement this change with the
+    configured model routes and required quality and security gates.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
