@@ -1,4 +1,4 @@
-# Codex orchstration
+# Codex orchestration
 
 A skill bundle for Codex CLI and local Desktop workspaces. Astra high coordinates; Astra medium implements substantive code; Astra high handles consequential design and sensitive logic/review. Terra xhigh/max handles basic coding and specified fixtures. Luna max supervises long tests. Fresh reviewers use Sol medium for routine low-risk changes or Astra medium/high for substantive/sensitive changes.
 
